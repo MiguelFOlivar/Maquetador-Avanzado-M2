@@ -1,0 +1,56 @@
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%
+    /*1 rem = 10px*/
+} 
+@font-face {
+    font-family: 'Coolvetica-rg';
+    src: url(../fonts/coolvetica\ rg\ \(2\).otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto-black';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: 'Roboto-rg';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+.titulo {
+    font-family: 'Coolvetica-rg';
+    font-size: 12rem;
+    color: #0a2ff1;
+    text-align: center;
+}
+main{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 1em;
+    background-color: #eff2ff;
+    align-items: center;
+}
+.card-icon {
+    width: 25%;
+}
+#apple-icon {
+    width: 18%;
+}
+.card-title {
+    font-size: 3rem;
+    font-family: 'Roboto-black';
+    color: #0a2ff1;
+}
+.card-text {
+    font-size: 2.4rem;
+    font-family: 'Roboto-rg';
+    color: #04146c;
+}
