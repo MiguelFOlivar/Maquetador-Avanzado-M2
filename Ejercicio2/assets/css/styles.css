@@ -1,0 +1,86 @@
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%
+    /*1 rem = 10px*/
+}
+:root {
+    --primario: #0a2ff1;
+    --secundario: #04146c;
+    --blanco: white;
+}
+@font-face {
+    font-family: 'Mulish-rg';
+    src: url(../fonts/Mulish-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Mulish-black';
+    src: url(../fonts/Mulish-Black.ttf);
+}
+@font-face {
+    font-family: 'Mulish-bold';
+    src: url(../fonts/Mulish-Bold.ttf);
+}
+
+main {
+    display: flex;
+    text-align: start;
+    width: 100%;
+}
+.contenedor-1 {
+    width: 65%;
+    padding-top: 5rem;
+    padding-left: 2rem;
+   
+}
+.contenedor-2 {
+    width: 32%;
+    background-image: url(../img/D2-E3-pattern.png);
+    background-position-y: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    margin-left: 2rem;
+}
+.titulo {
+    font-family: 'Mulish-rg';
+    font-size: 4rem;
+    color: var(--primario);
+    margin: 0;
+    padding-top: 4rem;
+}
+#subt {
+    font-family: 'Mulish-black';
+    font-size: 8rem;
+    color: var(--primario);
+    margin: 0;
+}
+.frase {
+    
+    font-family: 'Mulish-rg';
+    font-size: 2.6rem;
+    color: var(--secundario);
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.boton {
+    font-family: 'Mulish-bold';
+    font-size: 2.9rem;
+    background-color: var(--primario);
+    color: var(--blanco);
+    border: none;
+    width: 40rem;
+    height: 7rem;
+    margin-top: 2rem;
+}
+
+#foto {
+    width: 70%;
+   margin-top: 5rem;
+   position: relative;
+   left: 4rem;
+   border: 3px solid var(--primario);
+}
